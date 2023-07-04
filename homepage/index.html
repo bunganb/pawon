@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beranda-Pawon</title>
+  <!-- Bootsrap -->
+  <link rel="stylesheet" href="../bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/b1125aae2e.js" crossorigin="anonymous"></script>
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <section class="header" id="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../homepage/"><img src="img/logo-bg.png" width="100px" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../homepage/">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../menu/">Resep</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../blog/">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="../daftar/"><button type="button" class="btn btn-outline-light">Masuk / Daftar</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end-->
+      <div class="middle">
+        <h1 class="text-white">Mau Masak Apa Hari ini ?</h1>
+        <p class="text-white">Temukan Resep masakan hari ini <br />di PAWON</p>
+        <a href="#main"><button type="button" class="btn" id="btn1" style="border: none"><span>Mulai</span> &nbsp; <i
+              class="fas fa-arrow-right" style="margin-top: 3px"></i></button></a>
+      </div>
+    </div>
+  </section>
+  <!-- go top -->
+  <a href="#header" class="gotop"><i class="bi bi-arrow-up"></i></a>
+  <!-- go top end-->
+
+  <!-- Main -->
+  <div class="main" id="main">
+    <div class="title text-center">
+      <h1>Telusuri Menu Hari ini</h1>
+    </div>
+    <div class="desc">
+      <p>Cari Berbagai Masakan dari Penjuru Indonesia</p>
+    </div>
+    <div class="search">
+      <div class="container">
+        <form class="d-flex shadow" role="search" style="border-radius: 25px;">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="tag text-center mt-4">
+      <a href="../koleksi/"><button type="button" class="tombol" style="width: 200px">Resep Tersimpan &nbsp; <i
+            class="fa-solid fa-bookmark"></i></button></a>
+      <br />
+      <button type="button" class="btn btn-outline">Roti Canai</button>
+      <button type="button" class="btn btn-outline">Papeda</button>
+      <button type="button" class="btn btn-outline">Ayam</button>
+      <button type="button" class="btn btn-outline">Roti</button>
+      <button type="button" class="btn btn-outline">Salad</button>
+      <button type="button" class="btn btn-outline">Sate</button>
+      <br />
+      <button type="button" class="btn btn-outline">Dessert</button>
+      <button type="button" class="btn btn-outline">Nasi</button>
+      <button type="button" class="btn btn-outline">Ketupat</button>
+      <button type="button" class="btn btn-outline">Lontong</button>
+      <br />
+      <button type="button" class="btn btn-outline">Pecel</button>
+      <button type="button" class="btn btn-outline">Cenil</button>
+      <button type="button" class="btn btn-outline">Nasi padang</button>
+    </div>
+  </div>
+  <!-- Main end-->
+  <!-- Menu Fav -->
+  <div class="menu">
+    <div class="title text-center">
+      <h1>Menu Favorit</h1>
+    </div>
+    <div class="menu-list">
+      <div class="container">
+        <div class="row mt-3 gy-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow p-3" data-aos="zoom-in" data-aos-delay="400">
+              <img src="img/rotibakar.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Roti Bakar</h5>
+                <p class="card-text">Yuk Bunda buat roti bakar dengan 5 bahan saja! cocok untuk anak-anak dan suami di
+                  rumah</p>
+                <a href="../detail-resep/" class="btn">Mulai Memasak</a>
+                <div class="icon float-end">
+                  <a href="#"><i class="bi bi-bookmark-fill"></i></a>
+                  <a href="#"><i class="bi bi-share-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow p-3" data-aos="zoom-in" data-aos-delay="600">
+              <img src="img/RUJAK-SOTO.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Rujak Soto</h5>
+                <p class="card-text">Mau jadi idaman ibu mertua? yuk masak rujak soto kesukaan mertua dulu dengan saya!
+                </p>
+                <a href="../detail-resep/" class="btn">Mulai Memasak</a>
+                <div class="icon float-end">
+                  <a href="#"><i class="bi bi-bookmark-fill"></i></a>
+                  <a href=""><i class="bi bi-share-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow p-3" data-aos="zoom-in" data-aos-delay="800">
+              <img src="img/Resep-Rawon.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Rawon</h5>
+                <p class="card-text">masa idul qurban gini daging lagi banyak ya. tuk kita olah daging jadi masakan
+                  lezat</p>
+                <a href="../detail-resep/" class="btn">Mulai Memasak</a>
+                <div class="icon float-end">
+                  <a href="#"><i class="bi bi-bookmark-fill"></i></a>
+                  <a href=""><i class="bi bi-share-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow p-3">
+              <img src="img/ayam.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ayam</h5>
+                <p class="card-text">Hari ini kita masak ayam kecap ya bunda. jangan lupa siapkan bahan-bahan yang
+                  dibutuhkan</p>
+                <a href="../detail-resep/" class="btn">Mulai Memasak</a>
+                <div class="icon float-end">
+                  <a href="#"><i class="bi bi-bookmark-fill"></i></a>
+                  <a href=""><i class="bi bi-share-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow p-3">
+              <img src="img/pecel.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Nasi Pecel</h5>
+                <p class="card-text">Dari pada beli di pasar yuk buat nasi pecel ala kita sendiri ya bunda</p>
+                <div class="elemen justify-content-between">
+                  <a href="../detail-resep/" class="btn">Mulai Memasak</a>
+                  <div class="icon float-end">
+                    <a href="#"><i class="bi bi-bookmark-fill"></i></a>
+                    <a href=""><i class="bi bi-share-fill"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow p-3">
+              <img src="img/OIP (3).jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Nasi Padang</h5>
+                <p class="card-text">Pagi ini kita mulai dengan masakan yang berat ya bund, nasi padang ala Dita</p>
+                <a href="../detail-resep/" class="btn">Mulai Memasak</a>
+                <div class="icon float-end">
+                  <a href="#"><i class="bi bi-bookmark-fill"></i></a>
+                  <a href=""><i class="bi bi-share-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="selengkapnya text-center">
+          <a href="../menu/" class="btn">Cari Masakan Lainnya</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Menu Fav end-->
+  <!-- Banner -->
+  <div class="banner">
+    <h1>Temukan <br />10.000++ <br />resep makanan di <span class="brand">PAWON</span></h1>
+  </div>
+  <!-- Banner end-->
+  <!-- Blog -->
+  <div class="blog mb-4" id="blog">
+    <div class="title">
+      <h1 class="text-center">Blogs</h1>
+    </div>
+    <div class="blog-list mt-5">
+      <div class="container">
+        <a href="../detail-blog/">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="card mb-3 shadow" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/daunpepaya.jpg" class="img-fluid rounded-start" width="500px" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Khasiat daun pepaya</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Dikirim 4 hari lalu</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3 shadow" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/OIP.jpg" class="img-fluid rounded-start" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Tips Memanggang</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Dikirim 2 menit lalu</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="../detail-blog/">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="card mb-3 shadow" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/panci.jpg" class="img-fluid rounded-start" width="500px" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Panci Hitam seperti arang?</h5>
+                      <p class="card-text">Berikut bunda cara membersihkan panci yang hitam kembali seperti
+                        semula<br />1.
+                        Pertama jangan luma selalu mencuci panci setelah dipakai</p>
+                      <p class="card-text"><small class="text-muted">Dikirim 3 hari lalu</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card mb-3 shadow" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/OIP.jpg" class="img-fluid rounded-start" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Bahan dasar yang wajib ibu tau!!</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                      <div class="list">
+                        <p class="card-text"><small class="text-muted">Dikirim 02 Januari 2022</small></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+  <!-- Blog end-->
+  <!-- Footer -->
+  <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+    viewBox="0 0 1920 79">
+    <defs>
+      <style>
+        .cls-2 {
+          fill: #263e30;
+        }
+      </style>
+    </defs>
+    <title>footer-frame</title>
+    <path class="cls-2"
+      d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z"
+      transform="translate(0 -0.188)" />
+  </svg>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-5">
+          <img src="img/logo-bg.png" width="400px" />
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-center text-white mt-5">Our <br />Social Media</h1>
+          <ul class="text-center">
+            <li><i class="bi bi-instagram" style="color: white"></i></li>
+            <li><i class="bi bi-twitter" style="color: white"></i></li>
+            <li><i class="bi bi-facebook" style="color: white"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-4">
+          <h3 class="text-white">Kirim Saran</h3>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-white"><strong>Email:</strong></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email"
+              style="border-radius: 20px" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label text-white"><Strong>Saran</Strong></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Kirim Saran"
+              style="border-radius: 20px"></textarea>
+            <br />
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-light me-md-2" type="button">Kirim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <hr>
+        <a href="" style="text-decoration: none;  color: white;display: flex; justify-content:center">Copyright ©
+          Pawon-Tefa</a>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <!-- Footer end-->
+  <script src="../bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

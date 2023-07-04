@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap');
+
+.body {
+  background-color: #263e30;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  max-width: 1300px;
+}
+.back {
+  margin-top: 1px;
+  margin-left: 30px;
+  padding: 18px;
+  background-color: #263e30;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.button {
+  flex: content;
+}
+.button:active {
+  background-color: aquamarine;
+}
+.image {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  margin-left: 60px;
+  background: linear-gradient(0deg, rgba(38, 62, 48, 0.6), rgba(38, 62, 48, 0.6)), url(assets/pictures/image.png);
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+.card {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 40px;
+  top: 10%;
+}
+.card-daftar {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .body {
+    max-width: 95%;
+    font-size: small;
+  }
+  .back {
+    padding: 3%;
+    margin-left: 8px;
+    font-size: 15px;
+    text-shadow: black;
+  }
+  .image {
+    position: fixed;
+    width: 480px;
+    height: 86%;
+    margin-left: 10px;
+    background: linear-gradient(0deg, rgba(38, 62, 48, 0.6), rgba(38, 62, 48, 0.6)), url(assets/pictures/image.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+  }
+  .card {
+    margin-left: 55px;
+    padding: 10px;
+    top: 10%;
+    font-size: small;
+  }
+  .bi-person-fill-add {
+    font-size: small;
+  }
+}

@@ -1,0 +1,83 @@
+/* font monserat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap');
+
+.navbar {
+    background-color: #263e30;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.nav-item .btn {
+    border-radius: 20px;
+}
+.nav-item .btn:hover {
+    color: #263e30;
+}
+.banner {
+    align-items: center;
+}
+
+.content h1{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans serif;
+}
+.card-body .btn{
+    border-radius: 50px;
+    background-color: #263e30;
+    color: white;
+}
+.card-body .btn:hover{
+    color: black;
+    border: 2px solid #263e30;
+}
+.card img{
+    width: 100%;
+    height: 233px;
+    object-fit: cover;
+}
+.footer {
+    background: #263e30;
+    height: 450px;
+  }
+  
+  .footer li {
+    list-style: none;
+    display: inline;
+    margin-top: 20px;
+    letter-spacing: 50px;
+  }
+  .footer hr{
+    color: #eeee;
+  }
+  .footer h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .footer h1{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .card-body img:hover{
+      transform: scale(0.3s);
+  }
+  .footer .btn{
+    background-color: #263E30;
+    border-radius: 20px;
+    color: #fff;
+  }
+
+  .footer .btn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+@media screen and(max-width:922px) {
+  
+}
+
+@media screen and (max-width:576px){
+}
+
+@media screen and (max-width : 350px){
+
+}
