@@ -1,4 +1,4 @@
 # pawon
 
-Website yang dikembangkan oleh kelompok untuk projek tefa
-visit : https://pawon-eta.vercel.app/
+Website developed by the group for the tefa project 
+visit => https://pawon-eta.vercel.app/
